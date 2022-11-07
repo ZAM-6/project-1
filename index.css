@@ -1,0 +1,55 @@
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+font-family: "Asap", sans-serif;
+font-family: "Poppins", sans-serif;
+
+.one {
+  position: absolute;
+  width: 114px;
+  height: 36px;
+  left: 97px;
+  top: 34px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  color: #03045e;
+}
+
+.home-header {
+  display: flex;
+}
